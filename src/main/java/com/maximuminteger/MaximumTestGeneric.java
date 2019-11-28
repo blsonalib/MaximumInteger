@@ -1,6 +1,6 @@
 package com.maximuminteger;
 
-public class MaximumTest
+public class MaximumTestGeneric
 {
     public static <T extends Comparable<T>>T  toMaximum(T num1,T num2,T num3){
         T maximum=num1;
@@ -13,7 +13,5 @@ public class MaximumTest
             maximum=num3;
         }
         return maximum;
-
     }
-
 }

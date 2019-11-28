@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.maximuminteger.TestMaximum" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-11-28T11:46:21" hostname="admin1-desktop" time="0.002">
+<testsuite name="com.maximuminteger.TestMaximum" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T12:38:06" hostname="admin1-desktop" time="0.001">
   <properties/>
-  <testcase name="givenMessage_CheckToThreeFloat_ReturnMaximum" classname="com.maximuminteger.TestMaximum" time="0.001"/>
-  <testcase name="givenMessage_CheckToThreeString_ReturnMaximum" classname="com.maximuminteger.TestMaximum" time="0.0"/>
-  <testcase name="givenMessage_CheckToThreeInteger_ReturnMaximum" classname="com.maximuminteger.TestMaximum" time="0.0"/>
+  <testcase name="givenMessage_CheckToThreeString_ReturnMaximum" classname="com.maximuminteger.TestMaximum" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
