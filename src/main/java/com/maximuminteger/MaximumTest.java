@@ -28,4 +28,17 @@ public class MaximumTest
         }
         return maximum;
     }
+
+    public String toMaximumString(String abc,String efg,String xyz) {
+        String maximum=abc;
+        if(efg.compareTo(maximum)>0)
+        {
+            maximum=efg;
+        }
+        if(xyz.compareTo(maximum)>0)
+        {
+            maximum=xyz;
+        }
+        return maximum;
+    }
 }

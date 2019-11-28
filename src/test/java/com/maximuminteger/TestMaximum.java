@@ -16,4 +16,10 @@ public class TestMaximum {
         Float max=maximumTest.toMaximumFloat(5.6f,4.2f,8.9f);
         Assert.assertEquals(8.9,max.floatValue(),0.01);
     }
+    @Test
+    public void givenMessage_CheckToThreeString_ReturnMaximum(){
+        MaximumTest maximumTest=new MaximumTest();
+        String max=maximumTest.toMaximumString("Sona","Adity","Priya");
+        Assert.assertEquals("Sona",max);
+    }
 }
