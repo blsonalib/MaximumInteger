@@ -22,8 +22,14 @@ public class MaximumTestGeneric<T extends Comparable>
         {
             maximum=num3;
         }
+        MaximumTestGeneric.printMax(maximum);
         return maximum;
     }
+
+    private static <T extends Comparable<T>> void printMax(T maximum) {
+        System.out.println("max value is "+maximum);
+    }
+
     public <T extends Comparable<T>> T toMaximum(){
     T maximum= (T) MaximumTestGeneric.toMaximum(num1,num2,num3);
     return maximum;
