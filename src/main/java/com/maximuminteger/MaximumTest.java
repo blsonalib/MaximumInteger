@@ -15,4 +15,17 @@ public class MaximumTest
              }
              return maximum;
     }
+
+    public Float toMaximumFloat(Float x,Float y,Float z) {
+        Float maximum=z;
+        if(x.compareTo(maximum)>0)
+        {
+            maximum=x;
+        }
+        if(y.compareTo(maximum)>0)
+        {
+            maximum=y;
+        }
+        return maximum;
+    }
 }
