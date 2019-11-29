@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11bd43f3-2f0b-46d3-86f0-f9c725776d32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maximuminteger/MaximumValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -15,15 +14,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/maximuminteger/MaximumTestGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/maximuminteger/MaximumTestGeneric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/maximuminteger/TestMaximum.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/maximuminteger/TestMaximum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/maximuminteger/MaximumValue.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.maximuminteger.TestMaximum.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.maximuminteger.TestMaximum.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.maximuminteger.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.maximuminteger.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.maximuminteger.TestMaximum.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.maximuminteger.TestMaximum.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maximuminteger/MaximumTestGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maximuminteger/MaximumTestGeneric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/maximuminteger/TestMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maximuminteger/TestMaximum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maximuminteger/MaximumValue.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestMaximum.givenMessage_CheckToThreeString_ReturnMaximum">
+  <component name="RunManager" selected="Gradle.TestMaximum">
     <configuration name="TestMaximum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -162,10 +162,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestMaximum.givenMessage_CheckToThreeString_ReturnMaximum" />
+        <item itemvalue="Gradle.TestMaximum" />
         <item itemvalue="Gradle.TestMaximum.givenMessage_CheckToThreeFloat_ReturnMaximum" />
         <item itemvalue="Gradle.TestMaximum.givenMessage_CheckToThreeInteger_ReturnMaximum" />
-        <item itemvalue="Gradle.TestMaximum" />
+        <item itemvalue="Gradle.TestMaximum.givenMessage_CheckToThreeString_ReturnMaximum" />
       </list>
     </recent_temporary>
   </component>
@@ -194,5 +194,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/maximuminteger/TestMaximum.java</url>
+          <line>18</line>
+          <properties class="com.maximuminteger.TestMaximum" method="givenMessage_CheckToThreeString_ReturnMaximum">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
